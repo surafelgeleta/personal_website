@@ -102,68 +102,20 @@ document.addEventListener('DOMContentLoaded', function(e) {
             </div>
             <div id="my-goodreads-updates" class="section level2">
             <h2>My Goodreads Updates</h2>
-            <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-            <pre><code>  &lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&gt;</code></pre>
-            <p>.gr_custom_container_1788182307 { /* customize your
-            Goodreads widget container here<em>/ border: 1px solid gray;
-            border-radius:10px; padding: 10px 5px 10px 5px;
-            background-color: transparent; color: #000000; width: 300px
-            } .gr_custom_header_1788182307 { /</em> customize your
-            Goodreads header here<em>/ border-bottom: 1px solid gray;
-            width: 100%; margin-bottom: 5px; text-align: center;
-            font-size: 150% } .gr_custom_each_container_1788182307 {
-            /</em> customize each individual book container here <em>/
-            width: 100%; clear: both; margin-bottom: 10px; overflow:
-            auto; padding-bottom: 4px; border-bottom: 1px solid #aaa; }
-            .gr_custom_book_container_1788182307 { /</em> customize your
-            book covers here <em>/ overflow: hidden; height: 160px;
-            text-align: center; width: 100%; }
-            .gr_custom_author_1788182307 { /</em> customize your author
-            names here <em>/ font-size: 10px; }
-            .gr_custom_tags_1788182307 { /</em> customize your tags here
-            <em>/ font-size: 10px; color: gray; }
-            .gr_custom_rating_1788182307 { /</em> customize your rating
-            stars here */ float: right; } </style></p>
-            <pre><code>  &lt;div id=&quot;gr_custom_widget_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_container_1788182307&quot;&gt;
-&lt;h2 class=&quot;gr_custom_header_1788182307&quot;&gt;
-&lt;a style=&quot;text-decoration: none;&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/list/164492997-surafel-geleta?shelf=currently-reading&amp;amp;utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;My Current Reading&lt;/a&gt;
-&lt;/h2&gt;
-  &lt;div class=&quot;gr_custom_each_container_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_book_container_1788182307&quot;&gt;
-        &lt;a title=&quot;Ficciones&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;&lt;img alt=&quot;Ficciones&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SX98_.jpg&quot; /&gt;&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_title_1788182307&quot;&gt;
-        &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;Ficciones&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_author_1788182307&quot;&gt;
-        by &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/author/show/500.Jorge_Luis_Borges&quot;&gt;Jorge Luis Borges&lt;/a&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;gr_custom_each_container_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_book_container_1788182307&quot;&gt;
-        &lt;a title=&quot;Causal Inference: The Mixtape&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;&lt;img alt=&quot;Causal Inference: The Mixtape&quot; border=&quot;0&quot; src=&quot;https://s.gr-assets.com/assets/nophoto/book/111x148-675b3b2743c83e96e2540d2929d5f4d2.png&quot; /&gt;&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_title_1788182307&quot;&gt;
-        &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;Causal Inference: The Mixtape&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_author_1788182307&quot;&gt;
-        by &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/author/show/7075006.Scott_Cunningham&quot;&gt;Scott  Cunningham&lt;/a&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;</code></pre>
-            <br style="clear: both" />
-            <center>
-            <a rel="nofollow" href="https://www.goodreads.com/"><img role="img" aria-label="goodreads.com" alt="goodreads.com" style="border:0" src="data:image/gif;base64,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" /></a>
-            </center>
-            <noscript> Share
-            <a rel="nofollow" href="https://www.goodreads.com/">book
-            reviews</a> and ratings with Surafel, and even join a
-            <a rel="nofollow" href="https://www.goodreads.com/group">book
-            club</a> on Goodreads. </noscript>
+            <div style="border:1px solid gray; border-radius:10px; padding:10px 5px; width:300px;">
+            <h2 style="border-bottom:1px solid gray; text-align:center; font-size:150%; margin-bottom:5px;">
+            My Current Reading
+            </h2>
+            <div style="width:100%; clear:both; margin-bottom:10px; overflow:auto; padding-bottom:4px; border-bottom:1px solid #aaa;">
+            <pre><code>&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;a href=&quot;https://www.goodreads.com/book/show/1078107.Ficciones&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SX98_.jpg&quot; alt=&quot;Ficciones&quot; style=&quot;border:0;&quot;&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/1078107.Ficciones&quot; target=&quot;_blank&quot;&gt;Ficciones&lt;/a&gt;&lt;/div&gt;
+&lt;div style=&quot;font-size:10px;&quot;&gt;by &lt;a href=&quot;https://www.goodreads.com/author/show/500.Jorge_Luis_Borges&quot; target=&quot;_blank&quot;&gt;Jorge Luis Borges&lt;/a&gt;&lt;/div&gt;</code></pre>
             </div>
-            <pre><code>  &lt;/div&gt;
-  &lt;script src=&quot;https://www.goodreads.com/review/custom_widget/164492997.My%20Current%20Reading?cover_position=middle&amp;cover_size=medium&amp;num_books=4&amp;order=d&amp;shelf=currently-reading&amp;show_author=1&amp;show_cover=1&amp;show_rating=0&amp;show_review=0&amp;show_tags=0&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=true&amp;widget_border_width=1&amp;widget_id=1788182307&amp;widget_text_color=000000&amp;widget_title_size=large&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-  </code></pre>
+            </div>
             </div>
             <div id="latest-movies-ive-watched" class="section level2">
             <h2>Latest Movies I’ve Watched</h2>
@@ -174,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             </ul>
             <hr />
             <center>
-            <small> Website changed last at: August 31, 2026 at 09:00
+            <small> Website changed last at: August 31, 2026 at 10:27
             CDT </small>
             </center>
             </div>
@@ -237,68 +189,20 @@ document.addEventListener('DOMContentLoaded', function(e) {
               </div>
               <div id="my-goodreads-updates" class="section level2">
               <h2>My Goodreads Updates</h2>
-              <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-              <pre><code>  &lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&gt;</code></pre>
-              <p>.gr_custom_container_1788182307 { /* customize your
-              Goodreads widget container here<em>/ border: 1px solid
-              gray; border-radius:10px; padding: 10px 5px 10px 5px;
-              background-color: transparent; color: #000000; width:
-              300px } .gr_custom_header_1788182307 { /</em> customize
-              your Goodreads header here<em>/ border-bottom: 1px solid
-              gray; width: 100%; margin-bottom: 5px; text-align: center;
-              font-size: 150% } .gr_custom_each_container_1788182307 {
-              /</em> customize each individual book container here <em>/
-              width: 100%; clear: both; margin-bottom: 10px; overflow:
-              auto; padding-bottom: 4px; border-bottom: 1px solid #aaa;
-              } .gr_custom_book_container_1788182307 { /</em> customize
-              your book covers here <em>/ overflow: hidden; height:
-              160px; text-align: center; width: 100%; }
-              .gr_custom_author_1788182307 { /</em> customize your
-              author names here <em>/ font-size: 10px; }
-              .gr_custom_tags_1788182307 { /</em> customize your tags
-              here <em>/ font-size: 10px; color: gray; }
-              .gr_custom_rating_1788182307 { /</em> customize your
-              rating stars here */ float: right; } </style></p>
-              <pre><code>  &lt;div id=&quot;gr_custom_widget_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_container_1788182307&quot;&gt;
-&lt;h2 class=&quot;gr_custom_header_1788182307&quot;&gt;
-&lt;a style=&quot;text-decoration: none;&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/list/164492997-surafel-geleta?shelf=currently-reading&amp;amp;utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;My Current Reading&lt;/a&gt;
-&lt;/h2&gt;
-  &lt;div class=&quot;gr_custom_each_container_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_book_container_1788182307&quot;&gt;
-        &lt;a title=&quot;Ficciones&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;&lt;img alt=&quot;Ficciones&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SX98_.jpg&quot; /&gt;&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_title_1788182307&quot;&gt;
-        &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;Ficciones&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_author_1788182307&quot;&gt;
-        by &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/author/show/500.Jorge_Luis_Borges&quot;&gt;Jorge Luis Borges&lt;/a&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;gr_custom_each_container_1788182307&quot;&gt;
-      &lt;div class=&quot;gr_custom_book_container_1788182307&quot;&gt;
-        &lt;a title=&quot;Causal Inference: The Mixtape&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;&lt;img alt=&quot;Causal Inference: The Mixtape&quot; border=&quot;0&quot; src=&quot;https://s.gr-assets.com/assets/nophoto/book/111x148-675b3b2743c83e96e2540d2929d5f4d2.png&quot; /&gt;&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_title_1788182307&quot;&gt;
-        &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;amp;utm_source=custom_widget&quot;&gt;Causal Inference: The Mixtape&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;gr_custom_author_1788182307&quot;&gt;
-        by &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/author/show/7075006.Scott_Cunningham&quot;&gt;Scott  Cunningham&lt;/a&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;</code></pre>
-              <br style="clear: both" />
-              <center>
-              <a rel="nofollow" href="https://www.goodreads.com/"><img role="img" aria-label="goodreads.com" alt="goodreads.com" style="border:0" src="data:image/gif;base64,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" /></a>
-              </center>
-              <noscript> Share
-              <a rel="nofollow" href="https://www.goodreads.com/">book
-              reviews</a> and ratings with Surafel, and even join a
-              <a rel="nofollow" href="https://www.goodreads.com/group">book
-              club</a> on Goodreads. </noscript>
+              <div style="border:1px solid gray; border-radius:10px; padding:10px 5px; width:300px;">
+              <h2 style="border-bottom:1px solid gray; text-align:center; font-size:150%; margin-bottom:5px;">
+              My Current Reading
+              </h2>
+              <div style="width:100%; clear:both; margin-bottom:10px; overflow:auto; padding-bottom:4px; border-bottom:1px solid #aaa;">
+              <pre><code>&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;a href=&quot;https://www.goodreads.com/book/show/1078107.Ficciones&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SX98_.jpg&quot; alt=&quot;Ficciones&quot; style=&quot;border:0;&quot;&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/1078107.Ficciones&quot; target=&quot;_blank&quot;&gt;Ficciones&lt;/a&gt;&lt;/div&gt;
+&lt;div style=&quot;font-size:10px;&quot;&gt;by &lt;a href=&quot;https://www.goodreads.com/author/show/500.Jorge_Luis_Borges&quot; target=&quot;_blank&quot;&gt;Jorge Luis Borges&lt;/a&gt;&lt;/div&gt;</code></pre>
               </div>
-              <pre><code>  &lt;/div&gt;
-  &lt;script src=&quot;https://www.goodreads.com/review/custom_widget/164492997.My%20Current%20Reading?cover_position=middle&amp;cover_size=medium&amp;num_books=4&amp;order=d&amp;shelf=currently-reading&amp;show_author=1&amp;show_cover=1&amp;show_rating=0&amp;show_review=0&amp;show_tags=0&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=true&amp;widget_border_width=1&amp;widget_id=1788182307&amp;widget_text_color=000000&amp;widget_title_size=large&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-  </code></pre>
+              </div>
               </div>
               <div id="latest-movies-ive-watched" class="section level2">
               <h2>Latest Movies I’ve Watched</h2>
@@ -309,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
               </ul>
               <hr />
               <center>
-              <small> Website changed last at: August 31, 2026 at 09:00
+              <small> Website changed last at: August 31, 2026 at 10:27
               CDT </small>
               </center>
               </div>
