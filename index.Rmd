@@ -1,0 +1,130 @@
+---
+title: "Surafel Geleta"
+image: "picture.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/surafel-geleta-b1aa0a219/"
+  - label: GitHub
+    url: "https://github.com/surafelgeleta"
+output:
+  postcards::trestles
+---
+ 
+## Bio
+
+Hi, my name is Surafel! I am a third year statistics and data science student at UT Austin, also pursuing the Programming and Computation certificate. I am currently doing research on sensitivity analysis methods for surrogate marker validation, and some of my other research interests are econometrics and causal inference in observational settings. In my free time, I enjoy cooking, watching movies, and reading.
+
+## Education
+
+**The University of Texas at Austin** | Austin, TX
+
+B.S. in Statistics and Data Science | August 2024 - Present
+
+## Research Experience
+
+**LP Lab, UT Austin** | Undergraduate Research Assistant | February 2026 - Present
+
+## My Goodreads Updates
+
+<!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+      <style type="text/css" media="screen">
+  .gr_custom_container_1788182307 {
+    /* customize your Goodreads widget container here*/
+    border: 1px solid gray;
+    border-radius:10px;
+    padding: 10px 5px 10px 5px;
+    background-color: transparent;
+    color: #000000;
+    width: 300px
+  }
+  .gr_custom_header_1788182307 {
+    /* customize your Goodreads header here*/
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 150%
+  }
+  .gr_custom_each_container_1788182307 {
+    /* customize each individual book container here */
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #aaa;
+  }
+  .gr_custom_book_container_1788182307 {
+    /* customize your book covers here */
+    overflow: hidden;
+    height: 160px;
+      text-align: center;
+      width: 100%;
+  }
+  .gr_custom_author_1788182307 {
+    /* customize your author names here */
+    font-size: 10px;
+  }
+  .gr_custom_tags_1788182307 {
+    /* customize your tags here */
+    font-size: 10px;
+    color: gray;
+  }
+  .gr_custom_rating_1788182307 {
+    /* customize your rating stars here */
+    float: right;
+  }
+</style>
+
+      <div id="gr_custom_widget_1788182307">
+          <div class="gr_custom_container_1788182307">
+    <h2 class="gr_custom_header_1788182307">
+    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/164492997-surafel-geleta?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">My Current Reading</a>
+    </h2>
+      <div class="gr_custom_each_container_1788182307">
+          <div class="gr_custom_book_container_1788182307">
+            <a title="Ficciones" rel="nofollow" href="https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;utm_source=custom_widget"><img alt="Ficciones" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621713120l/426504._SX98_.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1788182307">
+            <a rel="nofollow" href="https://www.goodreads.com/review/show/8887906740?utm_medium=api&amp;utm_source=custom_widget">Ficciones</a>
+          </div>
+          <div class="gr_custom_author_1788182307">
+            by <a rel="nofollow" href="https://www.goodreads.com/author/show/500.Jorge_Luis_Borges">Jorge Luis Borges</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1788182307">
+          <div class="gr_custom_book_container_1788182307">
+            <a title="Causal Inference: The Mixtape" rel="nofollow" href="https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;utm_source=custom_widget"><img alt="Causal Inference: The Mixtape" border="0" src="https://s.gr-assets.com/assets/nophoto/book/111x148-675b3b2743c83e96e2540d2929d5f4d2.png" /></a>
+          </div>
+          <div class="gr_custom_title_1788182307">
+            <a rel="nofollow" href="https://www.goodreads.com/review/show/7769457399?utm_medium=api&amp;utm_source=custom_widget">Causal Inference: The Mixtape</a>
+          </div>
+          <div class="gr_custom_author_1788182307">
+            by <a rel="nofollow" href="https://www.goodreads.com/author/show/7075006.Scott_Cunningham">Scott  Cunningham</a>
+          </div>
+      </div>
+  <br style="clear: both"/>
+  <center>
+    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+  </center>
+  <noscript>
+    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Surafel, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
+  </noscript>
+  </div>
+
+      </div>
+      <script src="https://www.goodreads.com/review/custom_widget/164492997.My%20Current%20Reading?cover_position=middle&cover_size=medium&num_books=4&order=d&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1788182307&widget_text_color=000000&widget_title_size=large&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+      
+## Latest Movies I've Watched
+
+- Tár (2022)
+- Fargo (1996)
+- Girl, Interrupted (1999)
+
+***
+
+<center>
+<small>
+Website changed last at: `r format(Sys.time(), "%B %d, %Y at %H:%M %Z")`
+</small>
+</center>
