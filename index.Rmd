@@ -2,8 +2,6 @@
 title: "Surafel Geleta"
 image: "picture.jpg"
 links:
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/surafel-geleta-b1aa0a219/"
   - label: GitHub
     url: "https://github.com/surafelgeleta"
 output:
@@ -12,7 +10,7 @@ output:
  
 ## Bio
 
-Hi, my name is Surafel! I am a third year statistics and data science student at UT Austin, also pursuing the Programming and Computation certificate. I am currently doing research on sensitivity analysis methods for surrogate marker validation, and some of my other research interests are econometrics and causal inference in observational settings. In my free time, I enjoy cooking, watching movies, and reading.<br>
+Hi, my name is Surafel! I am a third year statistics and data science student at UT Austin, also pursuing the Programming and Computation certificate. I am currently doing research on sensitivity analysis methods for assumption violations in surrogate marker validation, and my research interests are in causal inference. In my free time, I enjoy cooking, watching movies, and reading.<br>
 
 ## Education
 
@@ -25,25 +23,23 @@ B.S. in Statistics and Data Science | August 2024 - Present<br>
 **LP Lab, UT Austin** | Undergraduate Research Assistant | February 2026 - Present<br>
 
 ## My Current Reading
-<br>
 
+<br>
 <div>
-<a href="https://www.goodreads.com/book/show/426504.Ficciones" target="_blank">
-<img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1621713120i/426504.jpg" style="border:0;width:140px;height:auto;display:block;margin:auto">
+<img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1672791535i/63032.jpg" style="border:0;width:140px;height:auto;display:block;margin:auto">
 </div>
-<div style="font-size:24px;text-align:center;">Ficciones by Jorge Luis Borges</a></div>
+<div style="font-size:24px;text-align:center;">2666 by Roberto Bolaño</a></div>
 <br>
 
 ## Latest Movies I've Watched
 
+- Conclave (2024)
 - Tár (2022)
 - Fargo (1996)
-- Girl, Interrupted (1999)
 
 ***
 
-<center>
+
 <small>
-Website changed last at: `r format(Sys.time(), "%B %d, %Y at %H:%M %Z")`
+Last update: `r format(Sys.time(), "%B %d, %Y at %H:%M %Z")`
 </small>
-</center>
