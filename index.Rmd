@@ -10,7 +10,7 @@ output:
  
 ## Bio
 
-Hi, my name is Surafel! I am a third year statistics and data science student at UT Austin, also pursuing the Programming and Computation certificate. I am currently doing research on sensitivity analysis methods for assumption violations in surrogate marker validation, and my research interests are in causal inference. In my free time, I enjoy cooking, watching movies, and reading.<br>
+Hi, my name is Surafel! I am a third year statistics and data science student at UT Austin, also pursuing the English minor and Programming and Computation certificate. I am currently doing research on sensitivity analysis methods for assumption violations in surrogate marker validation, and my research interests are in causal inference. In my free time, I enjoy cooking, watching movies, and reading.<br>
 
 ## Education
 
@@ -30,16 +30,22 @@ B.S. in Statistics and Data Science | August 2024 - Present<br>
 </div>
 <div style="font-size:24px;text-align:center;">2666 by Roberto Bolaño</a></div>
 <br>
+<br>
+<div>
+<img src="https://m.media-amazon.com/images/I/81lF3iVwVRL._SL1500_.jpg" style="border:0;width:140px;height:auto;display:block;margin:auto">
+</div>
+<div style="font-size:24px;text-align:center;">The Orchard Keeper by Cormac McCarthy</a></div>
+<br>
 
 ## Latest Movies I've Watched
 
-- A Poet (2025)
-- Conclave (2024)
-- Tár (2022)
-- Fargo (1996)
+- Y Tu Mamá También (2001) ★★★★★
+- Portrait of a Lady on Fire (2019) ★★★★⯨
+- A Poet (2025) ★★★★★
+- Conclave (2024) ★★★★
+- Tár (2022) ★★★★★
 
 ***
-
 
 <small>
 Last update: `r format(Sys.time(), "%B %d, %Y at %H:%M %Z")`
